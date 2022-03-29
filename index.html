@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,45 @@
     <link rel="stylesheet" href="style.css">
     <title>Cars</title>
 </head>
+
 <body>
+
+    <section id="section">
+        <div class="wrapper">
+            <div class="start_btn">
+                <select name="" id="optionGame">
+                    <option value="" , disabled selected>Select the level</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="new_game_btn">
+                <button id="newGame">START</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="imgs">
+        <img src="./img/open.jpg" id="open" alt="">
+        <img src="./img/backOne.jpg" id="one" alt="">
+        <img src="./img/backTwo.jpg" id="two" alt="">
+        <img src="./img/backThree.jpg" id="three" alt="">
+        <img src="./img/backFour.jpg" id="four" alt="">
+        <img src="./img/backFive.jpg" id="five" alt="">
+        <img src="./img/backSix.jpg" id="six" alt="">
+        <img src="./img/backSeven.jpg" id="seven" alt="">
+        <img src="./img/backEight.jpg" id="eight" alt="">
+        <img src="./img/backNine.jpg" id="nine" alt="">
+        <img src="./img/backTen.jpg" id="ten" alt="">
+        <img src="./img/backEleven.jpg" id="eleven" alt="">
+        <img src="./img/backTwelve.jpg" id="twelve" alt="">
+    </div>
+
     <canvas id="canvas"></canvas>
-    <script src="./main.js"></script>
-    <!-- <script type="module" src="./main.js"></script> -->
+
+    <script type="module" src="./memoryGame.js"></script>
+
 </body>
+
 </html>
